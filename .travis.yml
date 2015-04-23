@@ -5,6 +5,7 @@ matrix:
   include:
     - jdk: openjdk7
       script: "mvn deploy --settings project-resources/ci-settings.xml"
+    - jdk: openjdk8
 
 branches:
   only:
